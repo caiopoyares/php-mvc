@@ -1,0 +1,1 @@
+<h1>Hi<?php if($_SESSION["user_data"]) echo " " . $_SESSION["user_data"]["name"]; ?>, be welcome!</h1>
